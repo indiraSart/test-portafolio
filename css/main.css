@@ -68,7 +68,18 @@ h2 {
     display:flex;
     font-size: 48px;
 }
+ 
+p {
 
+    display: flex;
+    font-size: 20px;
+}
+
+.education {
+
+display: flex;
+margin-left: 20px;
+}
 
 .hero {
     display: flex;
