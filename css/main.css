@@ -60,7 +60,7 @@ text area {
 h1 {
     display: flex;
     margin-left: 50px;
-   justify-content: flex-start;
+   justify-content:center;
 }
 
 h2 {
@@ -72,13 +72,14 @@ h2 {
 p {
 
     display: flex;
-    font-size: 20px;
+    margin-left: 40px;
 }
 
 .education {
-
-display: flex;
-margin-left: 20px;
+    
+    display: flex;
+    flex-direction: column;
+margin-left: 30px;
 }
 
 .hero {
