@@ -125,7 +125,7 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Heading and Paragraph Styling */
+
 .info-box h3 {
     font-size: 1.5rem;
     color: #FF6392;
@@ -138,13 +138,13 @@ body {
     line-height: 1.6;
 }
 
-/* Box Hover Effect */
+
 .info-box:hover {
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .info-section {
         flex-direction: column;
@@ -158,7 +158,6 @@ body {
 }
 
 
-@media (max-width: 660px){
+
     
     
-}
