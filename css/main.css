@@ -99,6 +99,65 @@ p {
     flex-direction: column;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F9F9F9;
+    margin: 0;
+    padding: 0;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 50px;
+    gap: 20px;
+}
+
+.info-box {
+    background-color: #FFDDC1;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Heading and Paragraph Styling */
+.info-box h3 {
+    font-size: 1.5rem;
+    color: #FF6392;
+    margin-bottom: 15px;
+}
+
+.info-box p {
+    font-size: 1rem;
+    color: #4A4A4A;
+    line-height: 1.6;
+}
+
+/* Box Hover Effect */
+.info-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .info-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-box {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+
 @media (max-width: 660px){
     
     
